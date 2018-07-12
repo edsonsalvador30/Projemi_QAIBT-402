@@ -1,0 +1,215 @@
+{
+	"onSystemStarts": null,
+	"onLogout": {
+		"type": "server",
+		"blockly": {
+			"namespace": "blockly.ProcessoServ",
+			"classNameNew": "ProcessoServ",
+			"classNameOld": "ProcessoServ",
+			"sourcePath": "src/main/java/blockly/ProcessoServ.blockly",
+			"language": "java",
+			"class": "blockly.ProcessoServ",
+			"methods": [
+				{
+					"name": "Autenticado",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "SaiuSistema",
+					"hasReturn": "false",
+					"params": []
+				},
+				{
+					"name": "PagLoginCarregada",
+					"hasReturn": "false",
+					"params": []
+				},
+				{
+					"name": "PagPrincipalCarregada",
+					"hasReturn": "false",
+					"params": []
+				},
+				{
+					"name": "MudouPagina",
+					"hasReturn": "false",
+					"params": []
+				},
+				{
+					"name": "CriouSessao",
+					"hasReturn": "false",
+					"params": []
+				},
+				{
+					"name": "SessaoDestruida",
+					"hasReturn": "false",
+					"params": []
+				}
+			]
+		},
+		"blocklyMethod": "SaiuSistema",
+		"blocklyClass": "blockly.ProcessoServ",
+		"blocklyFunctionCall": "cronapi.util.makeCallServerBlocklyAsync('blockly.ProcessoServ:SaiuSistema', null, null)"
+	},
+	"onLogin": {
+		"type": "server",
+		"blockly": {
+			"namespace": "blockly.ProcessoServ",
+			"classNameNew": "ProcessoServ",
+			"classNameOld": "ProcessoServ",
+			"sourcePath": "src/main/java/blockly/ProcessoServ.blockly",
+			"language": "java",
+			"class": "blockly.ProcessoServ",
+			"methods": [
+				{
+					"name": "Autenticado",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "SaiuSistema",
+					"hasReturn": "false",
+					"params": []
+				},
+				{
+					"name": "PagLoginCarregada",
+					"hasReturn": "false",
+					"params": []
+				},
+				{
+					"name": "PagPrincipalCarregada",
+					"hasReturn": "false",
+					"params": []
+				},
+				{
+					"name": "MudouPagina",
+					"hasReturn": "false",
+					"params": []
+				},
+				{
+					"name": "CriouSessao",
+					"hasReturn": "false",
+					"params": []
+				},
+				{
+					"name": "SessaoDestruida",
+					"hasReturn": "false",
+					"params": []
+				}
+			]
+		},
+		"blocklyMethod": "Autenticado",
+		"blocklyClass": "blockly.ProcessoServ",
+		"blocklyFunctionCall": "cronapi.util.makeCallServerBlocklyAsync('blockly.ProcessoServ:Autenticado', null, null)"
+	},
+	"onSessionCreate": {
+		"type": "server",
+		"blockly": {
+			"namespace": "blockly.ProcessoServ",
+			"classNameNew": "ProcessoServ",
+			"classNameOld": "ProcessoServ",
+			"sourcePath": "src/main/java/blockly/ProcessoServ.blockly",
+			"language": "java",
+			"class": "blockly.ProcessoServ",
+			"methods": [
+				{
+					"name": "Autenticado",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "SaiuSistema",
+					"hasReturn": "false",
+					"params": []
+				},
+				{
+					"name": "PagLoginCarregada",
+					"hasReturn": "false",
+					"params": []
+				},
+				{
+					"name": "PagPrincipalCarregada",
+					"hasReturn": "false",
+					"params": []
+				},
+				{
+					"name": "MudouPagina",
+					"hasReturn": "false",
+					"params": []
+				},
+				{
+					"name": "CriouSessao",
+					"hasReturn": "false",
+					"params": []
+				},
+				{
+					"name": "SessaoDestruida",
+					"hasReturn": "false",
+					"params": []
+				}
+			]
+		},
+		"blocklyMethod": "CriouSessao",
+		"blocklyClass": "blockly.ProcessoServ",
+		"blocklyFunctionCall": "cronapi.util.makeCallServerBlocklyAsync('blockly.ProcessoServ:CriouSessao', null, null)"
+	},
+	"onSessionDestroy": {
+		"type": "server",
+		"blockly": {
+			"namespace": "blockly.ProcessoServ",
+			"classNameNew": "ProcessoServ",
+			"classNameOld": "ProcessoServ",
+			"sourcePath": "src/main/java/blockly/ProcessoServ.blockly",
+			"language": "java",
+			"class": "blockly.ProcessoServ",
+			"methods": [
+				{
+					"name": "Autenticado",
+					"hasReturn": "true",
+					"params": []
+				},
+				{
+					"name": "SaiuSistema",
+					"hasReturn": "false",
+					"params": []
+				},
+				{
+					"name": "PagLoginCarregada",
+					"hasReturn": "false",
+					"params": []
+				},
+				{
+					"name": "PagPrincipalCarregada",
+					"hasReturn": "false",
+					"params": []
+				},
+				{
+					"name": "MudouPagina",
+					"hasReturn": "false",
+					"params": []
+				},
+				{
+					"name": "CriouSessao",
+					"hasReturn": "false",
+					"params": []
+				},
+				{
+					"name": "SessaoDestruida",
+					"hasReturn": "false",
+					"params": []
+				}
+			]
+		},
+		"blocklyMethod": "SessaoDestruida",
+		"blocklyClass": "blockly.ProcessoServ",
+		"blocklyFunctionCall": "cronapi.util.makeCallServerBlocklyAsync('blockly.ProcessoServ:SessaoDestruida', null, null)"
+	},
+	"afterPageRender": null,
+	"afterLoginRender": null,
+	"afterHomeRender": null,
+	"onAuthenticate": null,
+	"onGetRoles": null,
+	"onGetMultitenantId": null,
+	"onChangePassword": null,
+	"onChangeTheme": null
+}

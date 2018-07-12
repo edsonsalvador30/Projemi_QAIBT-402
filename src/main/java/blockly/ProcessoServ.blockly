@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?><blockly formTarget="" resourceType="JAVA" ruleDescription="ProcessoServ" ruleName="ProcessoServ" ruleSynchronous="false" ruleTimeout="" ruleType="I">
+  <metadata scale="1" scrollx="313.9999999999999" scrolly="58.5" target="o^r.ET=CJX/WWJ,P/isu"/>
+  <block colour="#995ba5" id="{]hYLT?]swA_eUJ=LvUH" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-292" y="38">
+    <field name="NAME">Autenticado</field>
+    <comment h="80" pinned="false" w="160">Processo</comment>
+    <statement name="STACK">
+      <block colour="#487f7f" dependencyby="{]hYLT?]swA_eUJ=LvUH" id="*ktSc_eVL]*xKtrkVJHo" multilayer="false" namespace="cronapi.util.Operations.scheduleExecution" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EAgendar%20Execu%C3%A7%C3%A3o%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20agendar%20execu%C3%A7%C3%A3o%20de%20uma%20rotina.%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Comando%20:%20Comandos%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Tempo%20Inicial%20:%20Inteiro%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Tempo%20para%20Atualiza%C3%A7%C3%A3o%20:%20Inteiro%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Unidade%20de%20Tempo%20:%20Objeto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.util.Operations.scheduleExecution%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.util.Operations.scheduleExecution%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn">
+        <mutation name="{{cronapi.util.Operations.scheduleExecution}}" return-raw-type="void">
+          <arg cronapi-raw-type="java.lang.Runnable" cronapi-type="ObjectType.STATEMENT" name="Comando"/>
+          <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.LONG" name="Tempo Inicial"/>
+          <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.LONG" name="Tempo para Atualização"/>
+          <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.OBJECT" name="Unidade de Tempo"/>
+        </mutation>
+        <statement name="ARG0">
+          <block colour="#5ba58c" dependencyby="{]hYLT?]swA_eUJ=LvUH" id="DzkLN?lS~{:92Q(#o23n" origintype="text_print" output="false" tooltip="Imprime o texto, número ou valor especificado." type="text_print">
+            <value name="TEXT">
+              <shadow colour="#5ba593" dependencyby="{]hYLT?]swA_eUJ=LvUH" id="bdDPJoxs|IUxP7sq,b-/" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                <field name="TEXT">Edson Autenticado</field>
+              </shadow>
+            </value>
+          </block>
+        </statement>
+        <value name="ARG1">
+          <shadow colour="#5b67a5" dependencyby="{]hYLT?]swA_eUJ=LvUH" id=",)M|f`a*LQO%^([3-Dsh" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+            <field name="NUM">0</field>
+          </shadow>
+        </value>
+        <value name="ARG2">
+          <shadow colour="#5b67a5" dependencyby="{]hYLT?]swA_eUJ=LvUH" id="j^qMGUk6IzzZ|e1I^U,s" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+            <field name="NUM">15</field>
+          </shadow>
+        </value>
+        <value name="ARG3">
+          <block colour="#487f7f" dependencyby="{]hYLT?]swA_eUJ=LvUH" id="k{NjkXeECyKNF5qph${!" origintype="util_dropdown" output="true" type="util_dropdown">
+            <mutation>
+              <arg name="SECONDS" value="Segundos"/>
+              <arg name="MILLISECONDS" value="Milisegundos"/>
+              <arg name="MINUTES" value="Minutos"/>
+              <arg name="HOURS" value="Horas"/>
+            </mutation>
+            <field name="SELECT">SECONDS</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block colour="#fca03b" id="r=E+%^U02GpL(*9_U8iM" origintype="procedures_defnoreturn" output="false" tooltip="Cria uma função que não tem retorno." type="procedures_defnoreturn" x="-277" y="53">
+    <field name="NAME">SaiuSistema</field>
+    <comment h="80" pinned="false" w="160">Descreva esta função...</comment>
+    <statement name="STACK">
+      <block colour="#487f7f" dependencyby="r=E+%^U02GpL(*9_U8iM" id=",EHMGlrreQpRUJOFBrg;" multilayer="false" namespace="cronapi.util.Operations.scheduleExecution" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EAgendar%20Execu%C3%A7%C3%A3o%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20agendar%20execu%C3%A7%C3%A3o%20de%20uma%20rotina.%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Comando%20:%20Comandos%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Tempo%20Inicial%20:%20Inteiro%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Tempo%20para%20Atualiza%C3%A7%C3%A3o%20:%20Inteiro%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Unidade%20de%20Tempo%20:%20Objeto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.util.Operations.scheduleExecution%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.util.Operations.scheduleExecution%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn">
+        <mutation name="{{cronapi.util.Operations.scheduleExecution}}" return-raw-type="void">
+          <arg cronapi-raw-type="java.lang.Runnable" cronapi-type="ObjectType.STATEMENT" name="Comando"/>
+          <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.LONG" name="Tempo Inicial"/>
+          <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.LONG" name="Tempo para Atualização"/>
+          <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.OBJECT" name="Unidade de Tempo"/>
+        </mutation>
+        <statement name="ARG0">
+          <block colour="#5ba58c" dependencyby="r=E+%^U02GpL(*9_U8iM" id="Kz=mAzYL}ItzBe{a-)=g" origintype="text_print" output="false" tooltip="Imprime o texto, número ou valor especificado." type="text_print">
+            <value name="TEXT">
+              <shadow colour="#5ba593" dependencyby="r=E+%^U02GpL(*9_U8iM" id="#(w[M|1%^eR1gZSnCqvV" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                <field name="TEXT">Saiu do Sistema</field>
+              </shadow>
+            </value>
+          </block>
+        </statement>
+        <value name="ARG1">
+          <shadow colour="#5b67a5" dependencyby="r=E+%^U02GpL(*9_U8iM" id="E@bZlmrvWdXzeG0qjB[p" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+            <field name="NUM">0</field>
+          </shadow>
+        </value>
+        <value name="ARG2">
+          <shadow colour="#5b67a5" dependencyby="r=E+%^U02GpL(*9_U8iM" id="1{nRXc0id)yjLEZBdQi%" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+            <field name="NUM">20</field>
+          </shadow>
+        </value>
+        <value name="ARG3">
+          <block colour="#487f7f" dependencyby="r=E+%^U02GpL(*9_U8iM" id="Wni`W~TS.yj6PWt$Uc03" origintype="util_dropdown" output="true" type="util_dropdown">
+            <mutation>
+              <arg name="SECONDS" value="Segundos"/>
+              <arg name="MILLISECONDS" value="Milisegundos"/>
+              <arg name="MINUTES" value="Minutos"/>
+              <arg name="HOURS" value="Horas"/>
+            </mutation>
+            <field name="SELECT">SECONDS</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block colour="#fca03b" id="tKqlW}p{f{=6%.A~2eN@" origintype="procedures_defnoreturn" output="false" tooltip="Cria uma função que não tem retorno." type="procedures_defnoreturn" x="-287" y="86">
+    <field name="NAME">PagLoginCarregada</field>
+    <comment h="80" pinned="false" w="160">Descreva esta função...</comment>
+    <statement name="STACK">
+      <block colour="#487f7f" dependencyby="tKqlW}p{f{=6%.A~2eN@" id="2.2%YO$6w^]]-:RvJvwd" multilayer="false" namespace="cronapi.util.Operations.scheduleExecution" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EAgendar%20Execu%C3%A7%C3%A3o%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20agendar%20execu%C3%A7%C3%A3o%20de%20uma%20rotina.%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Comando%20:%20Comandos%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Tempo%20Inicial%20:%20Inteiro%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Tempo%20para%20Atualiza%C3%A7%C3%A3o%20:%20Inteiro%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Unidade%20de%20Tempo%20:%20Objeto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.util.Operations.scheduleExecution%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.util.Operations.scheduleExecution%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn">
+        <mutation name="{{cronapi.util.Operations.scheduleExecution}}" return-raw-type="void">
+          <arg cronapi-raw-type="java.lang.Runnable" cronapi-type="ObjectType.STATEMENT" name="Comando"/>
+          <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.LONG" name="Tempo Inicial"/>
+          <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.LONG" name="Tempo para Atualização"/>
+          <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.OBJECT" name="Unidade de Tempo"/>
+        </mutation>
+        <statement name="ARG0">
+          <block colour="#5ba58c" dependencyby="tKqlW}p{f{=6%.A~2eN@" id=";dQ6aSIA?0u,#4Ev,83;" origintype="text_print" output="false" tooltip="Imprime o texto, número ou valor especificado." type="text_print">
+            <value name="TEXT">
+              <shadow colour="#5ba593" dependencyby="tKqlW}p{f{=6%.A~2eN@" id="^PGQd#Py^ZqQJ#46xv3C" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                <field name="TEXT">Pagina de Login Carregada</field>
+              </shadow>
+            </value>
+          </block>
+        </statement>
+        <value name="ARG1">
+          <shadow colour="#5b67a5" dependencyby="tKqlW}p{f{=6%.A~2eN@" id="pBYb=wpW49iDoC4)J|vJ" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+            <field name="NUM">0</field>
+          </shadow>
+        </value>
+        <value name="ARG2">
+          <shadow colour="#5b67a5" dependencyby="tKqlW}p{f{=6%.A~2eN@" id="z1o[*lgGP88-!g;9#BMG" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+            <field name="NUM">40</field>
+          </shadow>
+        </value>
+        <value name="ARG3">
+          <block colour="#487f7f" dependencyby="tKqlW}p{f{=6%.A~2eN@" id=":lfNm]Tb^f;]5s_S~?L7" origintype="util_dropdown" output="true" type="util_dropdown">
+            <mutation>
+              <arg name="SECONDS" value="Segundos"/>
+              <arg name="MILLISECONDS" value="Milisegundos"/>
+              <arg name="MINUTES" value="Minutos"/>
+              <arg name="HOURS" value="Horas"/>
+            </mutation>
+            <field name="SELECT">SECONDS</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block colour="#fca03b" id="5]n?`O_?vbs,k42=!i](" origintype="procedures_defnoreturn" output="false" tooltip="Cria uma função que não tem retorno." type="procedures_defnoreturn" x="-287" y="101">
+    <field name="NAME">PagPrincipalCarregada</field>
+    <comment h="80" pinned="false" w="160">Descreva esta função...</comment>
+    <statement name="STACK">
+      <block colour="#487f7f" dependencyby="5]n?`O_?vbs,k42=!i](" id="Wam1{k#/)IZ86Sv#?wnZ" multilayer="false" namespace="cronapi.util.Operations.scheduleExecution" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EAgendar%20Execu%C3%A7%C3%A3o%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20agendar%20execu%C3%A7%C3%A3o%20de%20uma%20rotina.%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Comando%20:%20Comandos%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Tempo%20Inicial%20:%20Inteiro%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Tempo%20para%20Atualiza%C3%A7%C3%A3o%20:%20Inteiro%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Unidade%20de%20Tempo%20:%20Objeto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.util.Operations.scheduleExecution%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.util.Operations.scheduleExecution%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn">
+        <mutation name="{{cronapi.util.Operations.scheduleExecution}}" return-raw-type="void">
+          <arg cronapi-raw-type="java.lang.Runnable" cronapi-type="ObjectType.STATEMENT" name="Comando"/>
+          <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.LONG" name="Tempo Inicial"/>
+          <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.LONG" name="Tempo para Atualização"/>
+          <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.OBJECT" name="Unidade de Tempo"/>
+        </mutation>
+        <statement name="ARG0">
+          <block colour="#5ba58c" dependencyby="5]n?`O_?vbs,k42=!i](" id="gu8!w!j(?EWs^yB?`k@;" origintype="text_print" output="false" tooltip="Imprime o texto, número ou valor especificado." type="text_print">
+            <value name="TEXT">
+              <shadow colour="#5ba593" dependencyby="5]n?`O_?vbs,k42=!i](" id="qZRh7zoy4IT}_Did[]{^" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                <field name="TEXT">Pagina Principal Carregada</field>
+              </shadow>
+            </value>
+          </block>
+        </statement>
+        <value name="ARG1">
+          <shadow colour="#5b67a5" dependencyby="5]n?`O_?vbs,k42=!i](" id="yXO`@YjU+mVY(M3G.3ru" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+            <field name="NUM">0</field>
+          </shadow>
+        </value>
+        <value name="ARG2">
+          <shadow colour="#5b67a5" dependencyby="5]n?`O_?vbs,k42=!i](" id="]E||)/6m8`ojs9UILsD1" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+            <field name="NUM">32</field>
+          </shadow>
+        </value>
+        <value name="ARG3">
+          <block colour="#487f7f" dependencyby="5]n?`O_?vbs,k42=!i](" id="WI=26P(H=9BBdC(Y}r?g" origintype="util_dropdown" output="true" type="util_dropdown">
+            <mutation>
+              <arg name="SECONDS" value="Segundos"/>
+              <arg name="MILLISECONDS" value="Milisegundos"/>
+              <arg name="MINUTES" value="Minutos"/>
+              <arg name="HOURS" value="Horas"/>
+            </mutation>
+            <field name="SELECT">SECONDS</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block colour="#fca03b" id="@r{IZ)i7/oB9|UToU[!4" origintype="procedures_defnoreturn" output="false" tooltip="Cria uma função que não tem retorno." type="procedures_defnoreturn" x="-216" y="127">
+    <field name="NAME">MudouPagina</field>
+    <comment h="80" pinned="false" w="160">Descreva esta função...</comment>
+    <statement name="STACK">
+      <block colour="#487f7f" dependencyby="@r{IZ)i7/oB9|UToU[!4" id="k;+x~LU);JyZn2[iuez3" multilayer="false" namespace="cronapi.util.Operations.scheduleExecution" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EAgendar%20Execu%C3%A7%C3%A3o%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20agendar%20execu%C3%A7%C3%A3o%20de%20uma%20rotina.%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Comando%20:%20Comandos%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Tempo%20Inicial%20:%20Inteiro%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Tempo%20para%20Atualiza%C3%A7%C3%A3o%20:%20Inteiro%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Unidade%20de%20Tempo%20:%20Objeto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.util.Operations.scheduleExecution%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.util.Operations.scheduleExecution%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn">
+        <mutation name="{{cronapi.util.Operations.scheduleExecution}}" return-raw-type="void">
+          <arg cronapi-raw-type="java.lang.Runnable" cronapi-type="ObjectType.STATEMENT" name="Comando"/>
+          <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.LONG" name="Tempo Inicial"/>
+          <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.LONG" name="Tempo para Atualização"/>
+          <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.OBJECT" name="Unidade de Tempo"/>
+        </mutation>
+        <statement name="ARG0">
+          <block colour="#5ba58c" dependencyby="@r{IZ)i7/oB9|UToU[!4" id="xaPsXu3A~u._g@Gr}*JI" origintype="text_print" output="false" tooltip="Imprime o texto, número ou valor especificado." type="text_print">
+            <value name="TEXT">
+              <shadow colour="#5ba593" dependencyby="@r{IZ)i7/oB9|UToU[!4" id="eA`Kzz=;%x;4w{}i)wb0" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                <field name="TEXT">Mudou de Pagina</field>
+              </shadow>
+            </value>
+          </block>
+        </statement>
+        <value name="ARG1">
+          <shadow colour="#5b67a5" dependencyby="@r{IZ)i7/oB9|UToU[!4" id="xIzWFFLw5VwiTO26k[#q" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+            <field name="NUM">0</field>
+          </shadow>
+        </value>
+        <value name="ARG2">
+          <shadow colour="#5b67a5" dependencyby="@r{IZ)i7/oB9|UToU[!4" id="O474ixKAF[=dwj}bp(Tv" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+            <field name="NUM">18</field>
+          </shadow>
+        </value>
+        <value name="ARG3">
+          <block colour="#487f7f" dependencyby="@r{IZ)i7/oB9|UToU[!4" id="U?XnEbCyEKC3gNhHHpet" origintype="util_dropdown" output="true" type="util_dropdown">
+            <mutation>
+              <arg name="SECONDS" value="Segundos"/>
+              <arg name="MILLISECONDS" value="Milisegundos"/>
+              <arg name="MINUTES" value="Minutos"/>
+              <arg name="HOURS" value="Horas"/>
+            </mutation>
+            <field name="SELECT">SECONDS</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block colour="#fca03b" id="`O^j(M)Mx{}bOF=r;K#2" origintype="procedures_defnoreturn" output="false" tooltip="Cria uma função que não tem retorno." type="procedures_defnoreturn" x="-217" y="181">
+    <field name="NAME">SessaoDestruida</field>
+    <comment h="80" pinned="false" w="160">Descreva esta função...</comment>
+    <statement name="STACK">
+      <block colour="#487f7f" dependencyby="`O^j(M)Mx{}bOF=r;K#2" id="d/,w1@Wg=XGL0z;4LLqG" multilayer="false" namespace="cronapi.util.Operations.scheduleExecution" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EAgendar%20Execu%C3%A7%C3%A3o%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20agendar%20execu%C3%A7%C3%A3o%20de%20uma%20rotina.%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Comando%20:%20Comandos%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Tempo%20Inicial%20:%20Inteiro%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Tempo%20para%20Atualiza%C3%A7%C3%A3o%20:%20Inteiro%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Unidade%20de%20Tempo%20:%20Objeto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.util.Operations.scheduleExecution%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.util.Operations.scheduleExecution%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn">
+        <mutation name="{{cronapi.util.Operations.scheduleExecution}}" return-raw-type="void">
+          <arg cronapi-raw-type="java.lang.Runnable" cronapi-type="ObjectType.STATEMENT" name="Comando"/>
+          <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.LONG" name="Tempo Inicial"/>
+          <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.LONG" name="Tempo para Atualização"/>
+          <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.OBJECT" name="Unidade de Tempo"/>
+        </mutation>
+        <statement name="ARG0">
+          <block colour="#5ba58c" dependencyby="`O^j(M)Mx{}bOF=r;K#2" id="{nwt_5v4j}4Bag{Y4uE+" origintype="text_print" output="false" tooltip="Imprime o texto, número ou valor especificado." type="text_print">
+            <value name="TEXT">
+              <shadow colour="#5ba593" dependencyby="`O^j(M)Mx{}bOF=r;K#2" id="my{9Xk,sVFa.z`9lgQ1y" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                <field name="TEXT">Sessao Foi destruida</field>
+              </shadow>
+            </value>
+          </block>
+        </statement>
+        <value name="ARG1">
+          <shadow colour="#5b67a5" dependencyby="`O^j(M)Mx{}bOF=r;K#2" id="YlqZiI1BWME6VZ}Rr,hK" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+            <field name="NUM">0</field>
+          </shadow>
+        </value>
+        <value name="ARG2">
+          <shadow colour="#5b67a5" dependencyby="`O^j(M)Mx{}bOF=r;K#2" id="_ww3Cj9L/Q3m8]]N/Kr|" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+            <field name="NUM">30</field>
+          </shadow>
+        </value>
+        <value name="ARG3">
+          <block colour="#487f7f" dependencyby="`O^j(M)Mx{}bOF=r;K#2" id="ohj,E:H[hQM|Fc^T%$s}" origintype="util_dropdown" output="true" type="util_dropdown">
+            <mutation>
+              <arg name="SECONDS" value="Segundos"/>
+              <arg name="MILLISECONDS" value="Milisegundos"/>
+              <arg name="MINUTES" value="Minutos"/>
+              <arg name="HOURS" value="Horas"/>
+            </mutation>
+            <field name="SELECT">SECONDS</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block colour="#fca03b" id="o^r.ET=CJX/WWJ,P/isu" origintype="procedures_defnoreturn" output="false" tooltip="Cria uma função que não tem retorno." type="procedures_defnoreturn" x="-172" y="196">
+    <field name="NAME">CriouSessao</field>
+    <comment h="80" pinned="false" w="160">Descreva esta função...</comment>
+    <statement name="STACK">
+      <block colour="#5ba58c" dependencyby="o^r.ET=CJX/WWJ,P/isu" id="@+j+x#4JF3VkxFtVJg^+" origintype="text_print" output="false" tooltip="Imprime o texto, número ou valor especificado." type="text_print">
+        <value name="TEXT">
+          <shadow colour="#5ba593" dependencyby="o^r.ET=CJX/WWJ,P/isu" id="56VZc?~Y%0CPu3xD?2]K" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+            <field name="TEXT">Sessao Foi criada</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block colour="#487f7f" dependencyby="o^r.ET=CJX/WWJ,P/isu" id="W79xNI`)({oBI?Kle3=U" multilayer="false" namespace="cronapi.util.Operations.scheduleExecution" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EAgendar%20Execu%C3%A7%C3%A3o%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20agendar%20execu%C3%A7%C3%A3o%20de%20uma%20rotina.%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Comando%20:%20Comandos%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Tempo%20Inicial%20:%20Inteiro%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Tempo%20para%20Atualiza%C3%A7%C3%A3o%20:%20Inteiro%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Unidade%20de%20Tempo%20:%20Objeto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.util.Operations.scheduleExecution%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.util.Operations.scheduleExecution%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn" x="128" y="203">
+    <mutation name="{{cronapi.util.Operations.scheduleExecution}}" return-raw-type="void">
+      <arg cronapi-raw-type="java.lang.Runnable" cronapi-type="ObjectType.STATEMENT" name="Comando"/>
+      <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.LONG" name="Tempo Inicial"/>
+      <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.LONG" name="Tempo para Atualização"/>
+      <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.OBJECT" name="Unidade de Tempo"/>
+    </mutation>
+    <value name="ARG1">
+      <shadow colour="#5b67a5" dependencyby="o^r.ET=CJX/WWJ,P/isu" id="]H1(2C7YXL0)Ax?6%Y79" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+        <field name="NUM">0</field>
+      </shadow>
+    </value>
+    <value name="ARG2">
+      <shadow colour="#5b67a5" dependencyby="o^r.ET=CJX/WWJ,P/isu" id="w]A(lT4fvc*ZVq4_L||w" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+        <field name="NUM">30</field>
+      </shadow>
+    </value>
+    <value name="ARG3">
+      <block colour="#487f7f" dependencyby="o^r.ET=CJX/WWJ,P/isu" id="_m1Wq:hO!Q)3d:Wqv0/+" origintype="util_dropdown" output="true" type="util_dropdown">
+        <mutation>
+          <arg name="SECONDS" value="Segundos"/>
+          <arg name="MILLISECONDS" value="Milisegundos"/>
+          <arg name="MINUTES" value="Minutos"/>
+          <arg name="HOURS" value="Horas"/>
+        </mutation>
+        <field name="SELECT">SECONDS</field>
+      </block>
+    </value>
+  </block>
+</blockly>
